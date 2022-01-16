@@ -622,12 +622,17 @@
         </member>
         <member name="P:Jotunn.Configs.LocationConfig.HasInterior">
             <summary>
-                Enable to
+                Enable to activate interior handling
             </summary>
         </member>
         <member name="P:Jotunn.Configs.LocationConfig.InteriorRadius">
             <summary>
                 Radius of the interior attached to the location
+            </summary>
+        </member>
+        <member name="P:Jotunn.Configs.LocationConfig.InteriorEnvironment">
+            <summary>
+                Environment string used by the interior
             </summary>
         </member>
         <member name="P:Jotunn.Configs.LocationConfig.RandomRotation">
@@ -1545,9 +1550,15 @@
                 Name of this custom location
             </summary>
         </member>
+        <member name="P:Jotunn.Entities.CustomLocation.FixReference">
+            <summary>
+                Indicator if references from <see cref="T:Jotunn.Entities.Mock`1"/>s will be replaced at runtime.
+            </summary>
+        </member>
         <member name="M:Jotunn.Entities.CustomLocation.#ctor(UnityEngine.GameObject,Jotunn.Configs.LocationConfig)">
             <summary>
                 Custom location from a prefab with a <see cref="T:Jotunn.Configs.LocationConfig"/> attached.<br />
+                Does not fix references.
             </summary>
             <param name="exteriorPrefab">The exterior prefab for this custom location.</param>
             <param name="locationConfig">The <see cref="T:Jotunn.Configs.LocationConfig"/> for this custom location.</param>
@@ -1555,9 +1566,27 @@
         <member name="M:Jotunn.Entities.CustomLocation.#ctor(UnityEngine.GameObject,UnityEngine.GameObject,Jotunn.Configs.LocationConfig)">
             <summary>
                 Custom location from a prefab with a <see cref="T:Jotunn.Configs.LocationConfig"/> attached.<br />
+                Does not fix references.
             </summary>
             <param name="exteriorPrefab">The exterior prefab for this custom location.</param>
             <param name="interiorPrefab">The interior prefab for this custom location.</param>
+            <param name="locationConfig">The <see cref="T:Jotunn.Configs.LocationConfig"/> for this custom location.</param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomLocation.#ctor(UnityEngine.GameObject,System.Boolean,Jotunn.Configs.LocationConfig)">
+            <summary>
+                Custom location from a prefab with a <see cref="T:Jotunn.Configs.LocationConfig"/> attached.
+            </summary>
+            <param name="exteriorPrefab">The exterior prefab for this custom location.</param>
+            <param name="fixReference">If true references for <see cref="T:Jotunn.Entities.Mock`1"/> objects get resolved at runtime by Jötunn.</param>
+            <param name="locationConfig">The <see cref="T:Jotunn.Configs.LocationConfig"/> for this custom location.</param>
+        </member>
+        <member name="M:Jotunn.Entities.CustomLocation.#ctor(UnityEngine.GameObject,UnityEngine.GameObject,System.Boolean,Jotunn.Configs.LocationConfig)">
+            <summary>
+                Custom location from a prefab with a <see cref="T:Jotunn.Configs.LocationConfig"/> attached.
+            </summary>
+            <param name="exteriorPrefab">The exterior prefab for this custom location.</param>
+            <param name="interiorPrefab">The interior prefab for this custom location.</param>
+            <param name="fixReference">If true references for <see cref="T:Jotunn.Entities.Mock`1"/> objects get resolved at runtime by Jötunn.</param>
             <param name="locationConfig">The <see cref="T:Jotunn.Configs.LocationConfig"/> for this custom location.</param>
         </member>
         <member name="T:Jotunn.Entities.CustomPiece">
@@ -5254,12 +5283,12 @@
             <param name="sender"></param>
             <param name="e"></param>
         </member>
-        <member name="T:Jotunn.Managers.SynchronizationManager.ConfigEntryBase_GetSerializedValue">
+        <member name="M:Jotunn.Managers.SynchronizationManager.ConfigEntryBase_GetSerializedValue(BepInEx.Configuration.ConfigEntryBase,System.String@)">
             <summary>
                 Return the cached local value of a bep config thats locked
             </summary>
         </member>
-        <member name="T:Jotunn.Managers.SynchronizationManager.ConfigEntryBase_SetSerializedValue">
+        <member name="M:Jotunn.Managers.SynchronizationManager.ConfigEntryBase_SetSerializedValue(BepInEx.Configuration.ConfigEntryBase,System.String)">
             <summary>
                 Prevent overwriting bep config value when the setting is locked on config file reload
             </summary>
@@ -5362,12 +5391,33 @@
             <param name="biome"></param>
             <returns></returns>
         </member>
+        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(System.String)">
+            <summary>
+                Create an empty GameObject that is disabled, so any Components in instantiated GameObjects will not start their lifecycle.
+            </summary>
+            <param name="name">Name of the location</param>
+            <returns></returns>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(UnityEngine.GameObject)">
+            <summary>
+                Copy your GameObject to a disabled container, so any Components in instantiated GameObjects will not start their lifecycle     
+            </summary>
+            <param name="gameObject">Location prefab</param>
+        </member>
+        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(UnityEngine.GameObject,System.Boolean)">
+            <summary>
+                Create a copy that is disabled, so any Components in instantiated GameObjects will not start their lifecycle     
+            </summary>
+            <param name="gameObject">Prefab to copy</param>
+            <param name="fixLocationReferences">Replace JVLmock GameObjects with a copy of their real prefab</param>
+            <returns></returns>
+        </member>
         <member name="M:Jotunn.Managers.ZoneManager.AddCustomLocation(Jotunn.Entities.CustomLocation)">
             <summary>
                 Register a CustomLocation to be added to the ZoneSystem
             </summary>
             <param name="customLocation"></param>
-            <returns></returns>
+            <returns>true if the custom location could be added to the manager</returns>
         </member>
         <member name="M:Jotunn.Managers.ZoneManager.GetZoneLocation(System.String)">
             <summary>
@@ -5381,29 +5431,14 @@
             <param name="name">Name of the ZoneLocation to search for.</param>
             <returns>The existing ZoneLocation, or null if none exists with given name</returns>
         </member>
-        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(System.String)">
-            <summary>
-                Create an empty GameObject that is disabled, so any Components in instantiated GameObjects will not start their lifecycle.
-            </summary>
-            <param name="name">Name of the location</param>
-            <returns></returns>
-        </member>
-        <member name="M:Jotunn.Managers.ZoneManager.CreateLocationContainer(UnityEngine.GameObject,System.Boolean)">
-            <summary>
-                Create a copy that is disabled, so any Components in instantiated GameObjects will not start their lifecycle     
-            </summary>
-            <param name="gameObject">Prefab to copy</param>
-            <param name="fixLocationReferences">Replace JVLmock GameObjects with a copy of their real prefab</param>
-            <returns></returns>
-        </member>
         <member name="M:Jotunn.Managers.ZoneManager.CreateClonedLocation(System.String,System.String)">
             <summary>
-                Create a CustomLocation that is a deep copy of the original.
-                Changes will not affect the original. The CustomLocation is already registered to be added.
+                Create a CustomLocation that is a deep copy of the original.<br />
+                Changes will not affect the original. The CustomLocation is already registered in the manager.
             </summary>
             <param name="name">name of the custom location</param>
             <param name="baseName">name of the existing location to copy</param>
-            <returns></returns>
+            <returns>A CustomLocation object with the cloned location prefab</returns>
         </member>
         <member name="M:Jotunn.Managers.ZoneManager.AddCustomVegetation(Jotunn.Entities.CustomVegetation)">
             <summary>
@@ -5763,124 +5798,124 @@
             <summary>
                 Get all loaded mod's metadata
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Utils.ModRegistry.ModInfo"/> for all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPrefabs">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPrefab"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomPrefab">CustomPrefabs</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPrefab"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPrefabs(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPrefab"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomPrefab">CustomPrefabs</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPrefab"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetItems">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomItem"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomItem">CustomItems</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomItem"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetItems(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomItem"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomItem">CustomItems</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomItem"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetRecipes">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomRecipe"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomRecipe">CustomRecipes</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomRecipe"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetRecipes(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomRecipe"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomRecipe">CustomRecipes</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomRecipe"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetItemConversions">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomItemConversion"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomItemConversion">CustomItemConversions</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomItemConversion"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetItemConversions(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomItemConversion"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomItemConversion">CustomItemConversions</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomItemConversion"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetStatusEffects">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomStatusEffect"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomStatusEffect">CustomStatusEffects</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomStatusEffect"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetStatusEffects(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomStatusEffect"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomStatusEffect">CustomStatusEffects</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomStatusEffect"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPieceTables">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPieceTable"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomPieceTable">CustomPieceTables</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPieceTable"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPieceTables(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPieceTable"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomPieceTable">CustomPieceTables</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPieceTable"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPieces">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPiece"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomPiece">CustomPieces</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPiece"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetPieces(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomPiece"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomPiece">CustomPieces</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomPiece"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetCommands">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.ConsoleCommand"/>s
+                Get all added <see cref="T:Jotunn.Entities.ConsoleCommand">ConsoleCommands</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.ConsoleCommand"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetCommands(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.ConsoleCommand"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.ConsoleCommand">ConsoleCommands</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.ConsoleCommand"/> from a specific mod</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetTranslations">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomLocalization"/>s
+                Get all added <see cref="T:Jotunn.Entities.CustomLocalization">CustomLocalizations</see>
             </summary>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomLocalization"/> from all loaded mods</returns>
         </member>
         <member name="M:Jotunn.Utils.ModRegistry.GetTranslations(System.String)">
             <summary>
-                Get all added <see cref="T:Jotunn.Entities.CustomLocalization"/>s of a mod by GUID
+                Get all added <see cref="T:Jotunn.Entities.CustomLocalization">CustomLocalizations</see> of a mod by GUID
             </summary>
             <param name="modGuid">GUID of the mod</param>
-            <returns></returns>
+            <returns>An <see cref="T:System.Collections.Generic.IEnumerable`1"/> of <see cref="T:Jotunn.Entities.CustomLocalization"/> from a specific mod</returns>
         </member>
         <member name="T:Jotunn.Utils.ModRegistry.ModInfo">
             <summary>
