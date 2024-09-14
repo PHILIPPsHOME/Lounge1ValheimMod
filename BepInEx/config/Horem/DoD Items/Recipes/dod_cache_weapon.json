@@ -1,0 +1,194 @@
+[
+  {
+	"Enabled": true,
+    "Item": "CrudeWeaponKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "Bronze",
+        "Amount": 5
+      },
+      {
+        "Item": "DeerHide",
+        "Amount": 3
+      },
+      {
+        "Item": "FineWood",
+        "Amount": 5
+      },
+      {
+        "Item": "Resin",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "BasicWeaponKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "Iron",
+        "Amount": 6
+      },
+      {
+        "Item": "TrollHide",
+        "Amount": 3
+      },
+      {
+        "Item": "ElderBark",
+        "Amount": 5
+      },
+      {
+        "Item": "Resin",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "GoodWeaponKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "Silver",
+        "Amount": 7
+      },
+      {
+        "Item": "WolfPelt",
+        "Amount": 3
+      },
+      {
+        "Item": "ElderBark",
+        "Amount": 5
+      },
+      {
+        "Item": "Resin",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "GreatWeaponKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "BlackMetal",
+        "Amount": 8
+      },
+      {
+        "Item": "LoxPelt",
+        "Amount": 5
+      },
+      {
+        "Item": "OakWood_DoD",
+        "Amount": 5
+      },
+      {
+        "Item": "LinenThread",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "SuperiorWeaponKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "SteelBar_DoD",
+        "Amount": 9
+      },
+      {
+        "Item": "OakWood_DoD",
+        "Amount": 5
+      },
+      {
+        "Item": "ForestWolfPelt_DoD",
+        "Amount": 5
+      },
+      {
+        "Item": "LinenThread",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ExcellentWeaponKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "FelmetalBar_DoD",
+        "Amount": 10
+      },
+      {
+        "Item": "BlackDeerHide_DoD",
+        "Amount": 5
+      },
+      {
+        "Item": "OakWood_DoD",
+        "Amount": 5
+      },
+      {
+        "Item": "LinenThread",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ExceptionalWeaponKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "FlametalNew",
+        "Amount": 11
+      },
+      {
+        "Item": "BlackDeerHide_DoD",
+        "Amount": 5
+      },
+      {
+        "Item": "OakWood_DoD",
+        "Amount": 5
+      },
+      {
+        "Item": "LinenThread",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ExtraordinaryWeaponKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "FrometalBar_DoD",
+        "Amount": 12
+      },
+      {
+        "Item": "DireWolfPelt_DoD",
+        "Amount": 5
+      },
+      {
+        "Item": "OakWood_DoD",
+        "Amount": 5
+      },
+      {
+        "Item": "LinenThread",
+         "Amount": 5
+      }
+    ]
+  }
+]

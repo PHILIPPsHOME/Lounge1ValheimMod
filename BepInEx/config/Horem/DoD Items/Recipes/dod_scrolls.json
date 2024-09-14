@@ -1,0 +1,516 @@
+[
+  {
+	"Enabled": true,
+    "Item": "InkPot_DoD",
+    "Amount": 3,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "Resin",
+        "Amount": 15
+      },
+      {
+        "Item": "Crystal",
+        "Amount": 6
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "RogueItem_DoD",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "RollParchment_DoD",
+    "Amount": 3,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "Resin",
+        "Amount": 5
+      },
+      {
+        "Item": "FineWood",
+        "Amount": 15
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_Blank_DoD",
+    "Amount": 20,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "RollParchment_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InkPot_DoD",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_FrostProtection_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 3,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "FreezeGland",
+        "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_FireProtection_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 3,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "SurtlingCore",
+        "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_PoisonProtection_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 3,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "Guck",
+        "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_LightningProtection_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 2,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "AncientSeed",
+        "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_ElementalProtection_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "SurtlingCore",
+        "Amount": 5
+      },
+      {
+        "Item": "FreezeGland",
+        "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_PhysicalProtection_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "Iron",
+        "Amount": 5
+      },
+      {
+        "Item": "Stone",
+        "Amount": 10
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_MinorHeal_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "Dandelion",
+        "Amount": 5
+      },
+      {
+        "Item": "Thistle",
+        "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_Heal_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 3,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "Bloodbag",
+        "Amount": 8
+      },
+      {
+        "Item": "Thistle",
+        "Amount": 8
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_MajorHeal_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 5,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "Cloudberry",
+        "Amount": 12
+      },
+      {
+        "Item": "Thistle",
+        "Amount": 12
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_ExtraDamage_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 3,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "Dandelion",
+        "Amount": 12
+      },
+      {
+        "Item": "MeadStaminaMinor",
+        "Amount": 3
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_MinorRegen_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 2,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "MeadHealthMinor",
+        "Amount": 1
+      },
+      {
+        "Item": "MeadStaminaMinor",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_MinorRegen_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 3,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "MeadHealthMinor",
+        "Amount": 2
+      },
+      {
+        "Item": "MeadStaminaMinor",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_Regen_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 3,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3
+      },
+      {
+        "Item": "MeadHealthMinor",
+        "Amount": 2
+      },
+      {
+        "Item": "MeadStaminaMinor",
+        "Amount": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_MageFoodPoor_DoD",
+    "Amount": 2,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 6
+      },
+      {
+        "Item": "NotAChickenEgg_DoD",
+        "Amount": 2
+      },
+      {
+        "Item": "Thistle",
+        "Amount": 8
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_MageFoodAverage_DoD",
+    "Amount": 2,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 3,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 6
+      },
+      {
+        "Item": "Mushroom",
+        "Amount": 8
+      },
+      {
+        "Item": "Turnip",
+        "Amount": 4
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_MageFoodNormal_DoD",
+    "Amount": 2,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 6
+      },
+      {
+        "Item": "WolfMeat",
+        "Amount": 2
+      },
+      {
+        "Item": "Onion",
+        "Amount": 6
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_MageFoodGood_DoD",
+    "Amount": 2,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 5,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 6
+      },
+      {
+        "Item": "LoxMeat",
+        "Amount": 3
+      },
+      {
+        "Item": "NotAChickenEgg_DoD",
+        "Amount": 4
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Scroll_MageFoodGreat_DoD",
+    "Amount": 2,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": null,
+	"MinStationLevel": 6,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 6
+      },
+      {
+        "Item": "HareMeat",
+        "Amount": 6
+      },
+      {
+        "Item": "NotAChickenEgg_DoD",
+        "Amount": 4
+      }
+    ]
+  }
+]

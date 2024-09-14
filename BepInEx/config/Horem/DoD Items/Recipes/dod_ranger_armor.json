@@ -1,0 +1,152 @@
+[
+  {
+	"Enabled": true,
+    "Item": "RingRanger_AH",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "StormlingCore_DoD",
+         "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "CapeRanger_AH",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "StormlingCore_DoD",
+         "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "HelmetRanger_AH",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "StormlingCore_DoD",
+         "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ArmorRangerChest_AH",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "StormlingCore_DoD",
+         "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ArmorRangerLegs_AH",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "StormlingCore_DoD",
+         "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  }
+]

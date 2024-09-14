@@ -1,0 +1,194 @@
+[
+  {
+	"Enabled": true,
+    "Item": "CrudeArmorKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "Bronze",
+        "Amount": 5
+      },
+      {
+        "Item": "LeatherScraps",
+        "Amount": 3
+      },
+      {
+        "Item": "DeerHide",
+        "Amount": 3
+      },
+      {
+        "Item": "Resin",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "BasicArmorKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "Iron",
+        "Amount": 6
+      },
+      {
+        "Item": "TrollHide",
+        "Amount": 3
+      },
+      {
+        "Item": "DeerHide",
+        "Amount": 3
+      },
+      {
+        "Item": "Resin",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "GoodArmorKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "Silver",
+        "Amount": 7
+      },
+      {
+        "Item": "TrollHide",
+        "Amount": 3
+      },
+      {
+        "Item": "WolfPelt",
+        "Amount": 3
+      },
+      {
+        "Item": "Resin",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "GreatArmorKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "BlackMetal",
+        "Amount": 8
+      },
+      {
+        "Item": "LoxPelt",
+        "Amount": 4
+      },
+      {
+        "Item": "WolfPelt",
+        "Amount": 4
+      },
+      {
+        "Item": "LinenThread",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "SuperiorArmorKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "SteelBar_DoD",
+        "Amount": 9
+      },
+      {
+        "Item": "LoxPelt",
+        "Amount": 4
+      },
+      {
+        "Item": "ForestWolfPelt_DoD",
+        "Amount": 4
+      },
+      {
+        "Item": "LinenThread",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ExcellentArmorKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "FelmetalBar_DoD",
+        "Amount": 10
+      },
+      {
+        "Item": "BlackDeerHide_DoD",
+        "Amount": 4
+      },
+      {
+        "Item": "ForestWolfPelt_DoD",
+        "Amount": 4
+      },
+      {
+        "Item": "LinenThread",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ExceptionalArmorKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "FlametalNew",
+        "Amount": 11
+      },
+      {
+        "Item": "BlackDeerHide_DoD",
+        "Amount": 4
+      },
+      {
+        "Item": "ForestWolfPelt_DoD",
+        "Amount": 4
+      },
+      {
+        "Item": "LinenThread",
+         "Amount": 5
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ExtraordinaryArmorKit_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+    "Requirements": [
+      {
+        "Item": "FrometalBar_DoD",
+        "Amount": 12
+      },
+      {
+        "Item": "DireWolfPelt_DoD",
+        "Amount": 4
+      },
+      {
+        "Item": "BlackDeerHide_DoD",
+        "Amount": 4
+      },
+      {
+        "Item": "LinenThread",
+         "Amount": 5
+      }
+    ]
+  }
+]

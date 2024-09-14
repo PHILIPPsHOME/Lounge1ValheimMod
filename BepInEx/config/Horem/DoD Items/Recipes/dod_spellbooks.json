@@ -1,0 +1,182 @@
+[
+  {
+	"Enabled": true,
+    "Item": "SpellbookSummon_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": "InscriptionTable_DoD",
+	"MinStationLevel": 7,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 35,
+		"AmountPerLevel": 5
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "Eitr",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "WarlockItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "SpellbookHealing_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": "InscriptionTable_DoD",
+	"MinStationLevel": 5,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 35,
+		"AmountPerLevel": 5
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "DruidItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "PriestItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "SpellbookStorms_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": "InscriptionTable_DoD",
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 35,
+		"AmountPerLevel": 5
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "ShamanItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "StormlingCore_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "SpellbookNorth_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": "InscriptionTable_DoD",
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 35,
+		"AmountPerLevel": 5
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "MageItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "FrostlingCore_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "SpellbookAshes_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": "InscriptionTable_DoD",
+	"MinStationLevel": 8,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 35,
+		"AmountPerLevel": 5
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "MageItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "FlametalOreNew",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "SpellbookRestoration_DoD",
+    "Amount": 1,
+	"CraftingStation": "InscriptionTable_DoD",
+	"RepairStation": "InscriptionTable_DoD",
+	"MinStationLevel": 7,
+    "Requirements": [
+      {
+        "Item": "Scroll_Blank_DoD",
+        "Amount": 35,
+		"AmountPerLevel": 5
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "ShamanItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "ShamansVessel_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      }
+    ]
+  }
+]

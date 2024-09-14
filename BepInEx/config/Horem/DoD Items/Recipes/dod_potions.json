@@ -1,0 +1,152 @@
+[
+  {
+	"Enabled": true,
+    "Item": "Item_Potion_Bless_AH",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"MinStationLevel": 2,
+    "Requirements": [
+      {
+        "Item": "Dandelion",
+        "Amount": 2
+      },
+      {
+        "Item": "Honey",
+         "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      },
+      {
+        "Item": "NeckTail",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Item_Potion_Dispel_AH",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"MinStationLevel": 3,
+    "Requirements": [
+      {
+        "Item": "Bloodbag",
+        "Amount": 2
+      },
+      {
+        "Item": "Honey",
+         "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      },
+      {
+        "Item": "Thistle",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Item_Potion_Purify_AH",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "Cloudberry",
+        "Amount": 2
+      },
+      {
+        "Item": "Honey",
+         "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      },
+      {
+        "Item": "FreezeGland",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Item_Potion_CureMinorWounds_AH",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"MinStationLevel": 2,
+    "Requirements": [
+      {
+        "Item": "Dandelion",
+        "Amount": 2
+      },
+      {
+        "Item": "Honey",
+         "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      },
+      {
+        "Item": "NeckTail",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Item_Potion_CureWounds_AH",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"MinStationLevel": 3,
+    "Requirements": [
+      {
+        "Item": "Bloodbag",
+        "Amount": 2
+      },
+      {
+        "Item": "Honey",
+         "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      },
+      {
+        "Item": "Thistle",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Item_Potion_CureMajorWounds_AH",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "Cloudberry",
+        "Amount": 2
+      },
+      {
+        "Item": "Honey",
+         "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      },
+      {
+        "Item": "FreezeGland",
+         "Amount": 1
+      }
+    ]
+  }
+]

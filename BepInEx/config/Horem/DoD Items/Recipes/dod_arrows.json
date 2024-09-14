@@ -1,0 +1,41 @@
+[
+  {
+	"Enabled": true,
+    "Item": "ArrowDeepNorth_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"MinStationLevel": 5,
+    "Requirements": [
+      {
+        "Item": "ExtraordinaryWeaponKit_DoD",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ArrowAshLands_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"MinStationLevel": 5,
+    "Requirements": [
+      {
+        "Item": "ExceptionalWeaponKit_DoD",
+        "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ArrowMistlands_DoD",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"MinStationLevel": 5,
+    "Requirements": [
+      {
+        "Item": "ExcellentWeaponKit_DoD",
+        "Amount": 1
+      }
+    ]
+  }
+]

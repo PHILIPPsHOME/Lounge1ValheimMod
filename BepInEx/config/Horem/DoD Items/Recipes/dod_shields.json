@@ -1,0 +1,302 @@
+[
+  {
+	"Enabled": true,
+    "Item": "ShieldYagluth_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "BrokenShieldYagluth_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "ShamansVessel_DoD",
+        "Amount": 4,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "SuperiorArmorKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ShieldSkir_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "BrokenShieldSkir_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "ShamansVessel_DoD",
+        "Amount": 4,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "SuperiorArmorKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ShieldFarkas_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "BrokenShieldFarkas_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "ShamansVessel_DoD",
+        "Amount": 4,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ShieldModer_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "BrokenShieldModer_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "Wishbone",
+        "Amount": 4,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ShieldBonemass_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "BrokenShieldBonemass_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "Wishbone",
+        "Amount": 4,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "GoodArmorKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ShieldSkullGreen_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "BrokenShieldBhygshan_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "Wishbone",
+        "Amount": 4,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "GoodArmorKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ShieldBitterstump_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "BrokenShieldBitterstump_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "CryptKey",
+        "Amount": 4,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "BasicArmorKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ShieldBitterstump_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "BrokenShieldElder_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "CryptKey",
+        "Amount": 4,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "BasicArmorKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ShieldRambore_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "BrokenShieldRambore_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "HardAntler",
+        "Amount": 4,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "CrudeArmorKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ShieldEikthyr_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "BrokenShieldEikthyr_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "HardAntler",
+        "Amount": 4,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "CrudeArmorKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  }
+]

@@ -1,0 +1,236 @@
+[
+  {
+	"Enabled": true,
+    "Item": "HelmetDragon_HV",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "HelmetDragon_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "HelmetDragonBlack_HV",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "HelmetDragonBlack_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "HelmetDragonBlackRed_HV",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "HelmetDragonBlackRed_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "HelmetDragonBrown_HV",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "HelmetDragonBrown_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "HelmetDragonGreen_HV",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "HelmetDragonGreen_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "HelmetDragonPurple_HV",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "HelmetDragonPurple_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "HelmetDragonTeal_HV",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "HelmetDragonTeal_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "HelmetDragonWhite_HV",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "HelmetDragonWhite_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "CowlBlue_HV",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 2,
+    "Requirements": [
+      {
+        "Item": "CowlBlue_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "CowlGreen_HV",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 2,
+    "Requirements": [
+      {
+        "Item": "CowlGreen_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "CowlRed_HV",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 2,
+    "Requirements": [
+      {
+        "Item": "CowlRed_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "CowlRouge_HV",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 2,
+    "Requirements": [
+      {
+        "Item": "CowlRouge_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "CowlTeal_HV",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 2,
+    "Requirements": [
+      {
+        "Item": "CowlTeal_HV",
+        "Amount": 1
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+         "Amount": 1
+      }
+    ]
+  }
+]

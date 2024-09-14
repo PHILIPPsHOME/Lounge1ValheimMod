@@ -1,0 +1,62 @@
+[
+  {
+	"Enabled": true,
+    "Item": "Mace_DeepNorth_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 7,
+    "Requirements": [
+      {
+        "Item": "ExceptionalWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "FrozenBone_DoD",
+        "Amount": 20,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "ExtraordinaryWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Mace_Mistlands_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 5,
+    "Requirements": [
+      {
+        "Item": "SuperiorWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SpiderChitin_DoD",
+        "Amount": 20,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "ExcellentWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  }
+]

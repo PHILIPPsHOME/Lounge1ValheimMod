@@ -1,0 +1,362 @@
+[
+  {
+	"Enabled": true,
+    "Item": "MonkMace_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "MonkItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "BerserkerAxe_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "BerserkerItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "DruidSpear_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "DruidItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ShamanWand_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "ShamanItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "MageWand_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "MageItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "WarlockWand_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "WarlockItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "PaladinMace_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "PaladinItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "RogueSword_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "RogueItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "DeathknightAxe_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "DeathKnightItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "NinjaSword_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "NinjaItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "PriestStaff_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "PriestItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "SpartanSword_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "SpartanItem_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  }
+]

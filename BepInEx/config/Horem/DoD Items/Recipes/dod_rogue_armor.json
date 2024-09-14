@@ -1,0 +1,152 @@
+[
+  {
+	"Enabled": true,
+    "Item": "CapeRogue_AH",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "VoidlingCore_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "HelmetRogue_AH",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "VoidlingCore_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ArmorRogueChest_AH",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "VoidlingCore_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ArmorRogueLegs_AH",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "VoidlingCore_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "BeltRogue_AH",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "VoidlingCore_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  }
+]

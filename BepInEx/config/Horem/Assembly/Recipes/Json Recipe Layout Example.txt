@@ -1,0 +1,47 @@
+[
+  {
+	"Enabled": true,
+    "Item": "ItemName",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "FirstMaterialPrefabName",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SecondMaterialPrefabName",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "ThirdMaterialPrefabName",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "FourthMaterialPrefabName",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ItemName",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "FirstMaterialPrefabName",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      }
+    ]
+  }
+]

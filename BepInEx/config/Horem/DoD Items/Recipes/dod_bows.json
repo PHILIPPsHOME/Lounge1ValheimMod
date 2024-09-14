@@ -1,0 +1,182 @@
+[
+  {
+	"Enabled": true,
+    "Item": "Bow_DeepNorth_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 7,
+    "Requirements": [
+      {
+        "Item": "ExceptionalWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "ShamansVessel_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "ExtraordinaryWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Bow_Mistlands_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 6,
+    "Requirements": [
+      {
+        "Item": "SuperiorWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "ShamansVessel_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "ExcellentWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Bow_Plains_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 5,
+    "Requirements": [
+      {
+        "Item": "GreatWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "ShamansVessel_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SuperiorWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Bow_Mountain_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 4,
+    "Requirements": [
+      {
+        "Item": "GoodWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "LargeFang_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "GreatWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Bow_Swamp_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 3,
+    "Requirements": [
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "SkeletonBones_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "GoodWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "Bow_BlackForest_DoD",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 2,
+    "Requirements": [
+      {
+        "Item": "CrudeWeaponKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 0
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "GreydwarfHeart_DoD",
+        "Amount": 3,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "BasicWeaponKit_DoD",
+        "Amount": 0,
+		"AmountPerLevel": 1
+      }
+    ]
+  }
+]

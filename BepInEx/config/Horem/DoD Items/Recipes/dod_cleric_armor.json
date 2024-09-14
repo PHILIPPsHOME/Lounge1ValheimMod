@@ -1,0 +1,152 @@
+[
+  {
+	"Enabled": true,
+    "Item": "CapeCleric_AH",
+    "Amount": 1,
+	"CraftingStation": "piece_workbench",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "SurtlingCore",
+         "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "HelmetCleric_AH",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "SurtlingCore",
+         "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ArmorClericChest_AH",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "SurtlingCore",
+         "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ArmorClericLegs_AH",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "SurtlingCore",
+         "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  },
+  {
+	"Enabled": true,
+    "Item": "ShieldCleric_AH",
+    "Amount": 1,
+	"CraftingStation": "forge",
+	"RepairStation": null,
+	"MinStationLevel": 1,
+    "Requirements": [
+      {
+        "Item": "GreatArmorKit_DoD",
+        "Amount": 1,
+		"AmountPerLevel": 1
+      },
+      {
+        "Item": "SkullToken_DoD",
+        "Amount": 5,
+		"AmountPerLevel": 2
+      },
+      {
+        "Item": "InfusedGemstone_DoD",
+        "Amount": 10,
+		"AmountPerLevel": 4
+      },
+      {
+        "Item": "SurtlingCore",
+         "Amount": 5,
+		"AmountPerLevel": 2
+      }
+    ]
+  }
+]
